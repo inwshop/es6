@@ -13,14 +13,14 @@ body {
   margin: 10px 15px 25px 0;
   padding: 8px;
   position: center;
-  width: 862px;
+  width: 859px;
 }
 
 .key {
   background: #282829;
   border: 6px solid transparent;
   border-width: 5px 5px 8px 6px;
-  border-image: #5E5F60;
+  border-radius: 4px;
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
@@ -58,17 +58,17 @@ body {
 }
 
 .w90{
-  width: 40px;
+  width: 43px;
 
 }
 .w91{
-  width: 83px;
+  width: 82px;
 }
 .w92{
-  width: 83px;
+  width: 82px;
 }
 .w93{
-  width: 83px;
+  width: 82px;
 }
 .w94{    
   width: 300px;
@@ -82,7 +82,7 @@ body {
   height: 500px;
   overflow: auto;
   padding: 5px;
-  width: 837px;
+  width: 834px;
 }
 
 .screen p {
