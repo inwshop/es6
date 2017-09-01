@@ -3,12 +3,10 @@
   border-radius: 4px;
   color: #fff;
   float: left;
-  font: bold 16px Helvetica, Arial;
+  font: bold 14px Helvetica, Arial;
   margin: 10px 15px 25px 0;
   padding: 8px;
-  position: relative;
-  -moz-user-select: none;
-  -webkit-user-select: none;
+  position: center;
   width: 875px;
 }
 
@@ -23,7 +21,7 @@
   height: 60px;
   margin: 1px 0;
   padding: 2px 0 0 5px;
-  position: relative;
+  position: center;
   vertical-align: top;
 }
 
@@ -51,9 +49,25 @@
 }
 
 .w12 {
-  width: 344px;
+  width: 300px;
 }
 
+.w90{
+  width: 40px;
+
+}
+.w91{
+  width: 83px;
+}
+.w92{
+  width: 83px;
+}
+.w93{
+  width: 83px;
+}
+.w94{    
+  width: 300px;
+}
 
 
 .screen {
