@@ -77,6 +77,7 @@ body {
 
 .screen {
   border: 15px solid #000000;
+  background: #1E1E1E;
   border-radius: 5px;
   height: 500px;
   overflow: auto;
@@ -87,6 +88,7 @@ body {
 .screen p {
   display: inline-block;
   font-family: Courier, monospace;
+  color: #fff;
   margin: 0;
   padding: 0;
 }
@@ -95,12 +97,4 @@ body {
   content: "|";
   position: relative;
   right: 3px;
-  -webkit-animation-name: blinker;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-name: blinker;
-  -moz-animation-duration: 1.5s;
-  -moz-animation-iteration-count: infinite;
-  -moz-animation-timing-function: linear;
 }
