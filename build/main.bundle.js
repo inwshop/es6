@@ -58,7 +58,7 @@ var init = function() {
         caps = true;
       }
     }
-    else if (content == "control" || content == "alt <br/><br/> options" || content == "command" || content == "fn") {
+    else if (content == "control" || content == "alt<br/><br/>options" || content == "command" || content == "fn") {
   
     }
     else { // i.e. a letter
