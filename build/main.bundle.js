@@ -42,7 +42,7 @@ var init = function() {
       content = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
       $("#output").html($("#output").html() + content);
     }
-    else if (content == "Shift") {
+    else if (content == "shift") {
       if (shift) {
         shift = false;
       }
@@ -58,7 +58,7 @@ var init = function() {
         caps = true;
       }
     }
-    else if (content == "control" || content == "alt<br/><br/>options" || content == "command" || content == "fn") {
+    else if (content == "control" || content == "alt <br/><br/> options" || content == "command" || content == "fn") {
   
     }
     else { // i.e. a letter

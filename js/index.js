@@ -42,7 +42,7 @@ var init = function() {
       content = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
       $("#output").html($("#output").html() + content);
     }
-    else if (content == "Shift") {
+    else if (content == "shift") {
       if (shift) {
         shift = false;
       }
