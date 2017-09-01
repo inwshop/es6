@@ -34,7 +34,7 @@ var init = function() {
         $("#output").html(stuff.substr(0, x));
       }
     }
-    else if (content == "enter") {
+    else if (content == "return") {
       content = "<br />";
       $("#output").html($("#output").html() + content);
     }
