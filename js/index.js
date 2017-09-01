@@ -58,8 +58,8 @@ var init = function() {
         caps = true;
       }
     }
-    else if (content == "Ctrl" || content == "Alt" || content == "Win" || content == "Spl") {
-      
+    else if (content == "control" || content == "Alt <br/><br/> options" || content == "command" || content == "fn") {
+  
     }
     else { // i.e. a letter
       capitalize = false;
