@@ -18,7 +18,7 @@ var init = function() {
     }
     
     // Setting special output, and then outputting
-    if (content == "Backspace") {
+    if (content == "backspace") {
       var stuff = outputContent;
       var x = stuff.length - 1;
       
@@ -34,11 +34,11 @@ var init = function() {
         $("#output").html(stuff.substr(0, x));
       }
     }
-    else if (content == "Enter") {
+    else if (content == "enter") {
       content = "<br />";
       $("#output").html($("#output").html() + content);
     }
-    else if (content == "Tab") {
+    else if (content == "tab") {
       content = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
       $("#output").html($("#output").html() + content);
     }
@@ -50,7 +50,7 @@ var init = function() {
         shift = true;
       }
     }
-    else if (content == "Caps Lock") {
+    else if (content == "caps Lock") {
       if (caps) {
         caps = false;
       }
@@ -58,7 +58,7 @@ var init = function() {
         caps = true;
       }
     }
-    else if (content == "control" || content == "Alt <br/><br/> options" || content == "command" || content == "fn") {
+    else if (content == "control" || content == "alt <br/><br/> options" || content == "command" || content == "fn") {
   
     }
     else { // i.e. a letter
