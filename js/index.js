@@ -18,7 +18,7 @@ var init = function() {
     }
     
     // Setting special output, and then outputting
-    if (content == "backspace") {
+    if (content == "delete") {
       var stuff = outputContent;
       var x = stuff.length - 1;
       
@@ -58,7 +58,7 @@ var init = function() {
         caps = true;
       }
     }
-    else if (content == "control" || content == "alt <br/><br/> options" || content == "command" || content == "fn") {
+    else if (content == "control" || content == "option" || content == "command" || content == "fn") {
   
     }
     else { // i.e. a letter
