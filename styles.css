@@ -3,11 +3,11 @@
   border-radius: 4px;
   color: #fff;
   float: left;
-  font: bold 14px Helvetica, Arial;
+  font: bold 12px Helvetica, Arial;
   margin: 10px 15px 25px 0;
   padding: 8px;
   position: center;
-  width: 875px;
+  width: 862px;
 }
 
 .key {
@@ -26,9 +26,8 @@
 }
 
 .key:active {
-  background: #282829;
-  
-  top: 1px;
+  background: #353536;
+  box-shadow: #5E5F60;
 }
 
 .w2 {
@@ -71,12 +70,12 @@
 
 
 .screen {
-  border: 25px solid #000000;
-  border-radius: 10px;
+  border: 15px solid #000000;
+  border-radius: 5px;
   height: 500px;
   overflow: auto;
   padding: 5px;
-  width: 830px;
+  width: 837px;
 }
 
 .screen p {
